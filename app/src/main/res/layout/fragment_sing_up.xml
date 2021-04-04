@@ -38,14 +38,14 @@
         android:layout_marginStart="15dp"
         android:layout_marginTop="20dp"
         android:background="@null"
+        android:contentDescription="@string/description"
         android:src="@drawable/ic_arrow_back_black_36dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:contentDescription="@string/description" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/editTextTextUserName"
-        android:layout_width="350dp"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:background="@drawable/ic_rectangle_19"
@@ -55,6 +55,7 @@
         android:inputType="textPersonName"
         android:padding="10dp"
         android:paddingStart="20dp"
+        android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -62,7 +63,7 @@
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/editTextTextEmailAddress2"
-        android:layout_width="350dp"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:background="@drawable/ic_rectangle_19"
@@ -73,49 +74,44 @@
         android:padding="10dp"
         android:paddingStart="20dp"
         android:paddingEnd="10dp"
+        android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextUserName" />
 
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayout"
-        android:layout_width="wrap_content"
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
+        android:background="@drawable/ic_rectangle_19"
+        android:fontFamily="@font/circular_std_medium"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2"
-        app:passwordToggleEnabled="true">
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2" />
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/editTextTextPassword2"
-            android:layout_width="350dp"
-            android:layout_height="wrap_content"
-            android:background="@drawable/ic_rectangle_19"
-            android:drawablePadding="10dp"
-            android:fontFamily="@font/circular_std_medium"
-            android:hint="@string/password"
-            android:inputType="textPassword"
-            android:paddingStart="20dp"
-            android:paddingEnd="10dp"
-            android:textColorLink="@color/black"
-            android:textSize="18sp" />
-    </com.google.android.material.textfield.TextInputLayout>
 
     <CheckBox
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:checked="true"
+        android:checked="false"
         android:fontFamily="@font/circular_std_medium"
         android:text="@string/i_accept_the_policy_and_terms"
         android:textColor="@color/black"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
 
 
     <Button
@@ -139,7 +135,7 @@
         android:id="@+id/divider"
         android:layout_width="100dp"
         android:layout_height="2dp"
-        android:layout_marginStart="70dp"
+        android:layout_marginStart="60dp"
         android:layout_marginBottom="160dp"
         android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -150,7 +146,7 @@
         android:id="@+id/divider2"
         android:layout_width="100dp"
         android:layout_height="2dp"
-        android:layout_marginEnd="70dp"
+        android:layout_marginEnd="60dp"
         android:layout_marginBottom="160dp"
         android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -177,7 +173,7 @@
         android:layout_marginTop="10dp"
         android:text="@string/sing_up_with"
         android:textColor="@color/white"
-        android:textSize="16sp"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
@@ -186,7 +182,7 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
+        android:layout_marginStart="40dp"
         android:layout_marginBottom="50dp"
         android:background="@drawable/ic_group_67"
         android:src="@drawable/ic_google_1"
@@ -199,7 +195,7 @@
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="50dp"
+        android:layout_marginEnd="40dp"
         android:layout_marginBottom="50dp"
         android:background="@drawable/ic_group_67"
         android:src="@drawable/ic_apple"

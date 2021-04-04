@@ -17,7 +17,7 @@
         android:textColor="@color/black"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+        app:layout_constraintTop_toBottomOf="@+id/backButton" />
 
     <TextView
         android:id="@+id/textView4"
@@ -33,7 +33,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/backButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
@@ -46,9 +46,9 @@
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/editTextTextEmailAddress2"
-        android:layout_width="350dp"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="50dp"
         android:background="@drawable/ic_rectangle_19"
         android:drawableStart="@drawable/ic_person_black_24dp"
         android:drawablePadding="10dp"
@@ -57,45 +57,37 @@
         android:inputType="textEmailAddress"
         android:padding="10dp"
         android:paddingStart="20dp"
-        android:paddingEnd="1dp"
+        android:paddingEnd="10dp"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayout"
-        android:layout_width="wrap_content"
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
+        android:background="@drawable/ic_rectangle_19"
+        android:drawableStart="@drawable/ic_lock_black_24dp__1_"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/circular_std_medium"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp"
+        android:textColorLink="@color/black"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2"
-        app:passwordToggleEnabled="true">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/editTextTextPassword2"
-            android:layout_width="350dp"
-            android:layout_height="wrap_content"
-            android:background="@drawable/ic_rectangle_19"
-            android:drawableStart="@drawable/ic_lock_black_24dp__1_"
-            android:drawablePadding="10dp"
-            android:fontFamily="@font/circular_std_medium"
-            android:hint="@string/password"
-            android:inputType="textPassword"
-            android:padding="10dp"
-            android:paddingStart="20dp"
-            android:paddingEnd="10dp"
-            android:textColorLink="@color/black"
-            android:textSize="18sp" />
-    </com.google.android.material.textfield.TextInputLayout>
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2" />
 
     <Button
         android:id="@+id/loginBtn"
         style="@style/ButtonCircleShape"
-        android:layout_width="255dp"
+        android:layout_width="230dp"
         android:layout_height="55dp"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="10dp"
@@ -106,13 +98,13 @@
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
 
     <View
         android:id="@+id/divider"
         android:layout_width="100dp"
         android:layout_height="2dp"
-        android:layout_marginStart="70dp"
+        android:layout_marginStart="60dp"
         android:layout_marginBottom="180dp"
         android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -123,7 +115,7 @@
         android:id="@+id/divider2"
         android:layout_width="100dp"
         android:layout_height="2dp"
-        android:layout_marginEnd="70dp"
+        android:layout_marginEnd="60dp"
         android:layout_marginBottom="180dp"
         android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -150,7 +142,7 @@
         android:layout_marginTop="16dp"
         android:text="@string/sing_in_with"
         android:textColor="@color/white"
-        android:textSize="20sp"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
@@ -159,7 +151,7 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
+        android:layout_marginStart="40dp"
         android:layout_marginBottom="60dp"
         android:background="@drawable/ic_group_67"
         android:contentDescription="@string/description"
@@ -173,7 +165,7 @@
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="50dp"
+        android:layout_marginEnd="40dp"
         android:layout_marginBottom="60dp"
         android:background="@drawable/ic_group_67"
         android:contentDescription="@string/description"

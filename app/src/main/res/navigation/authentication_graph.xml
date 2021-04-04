@@ -20,10 +20,18 @@
         android:id="@+id/loginFragment"
         android:name="com.userfaltakas.arshop.ui.fragments.LoginFragment"
         android:label="LoginFragment"
-        tools:layout="@layout/fragment_login" />
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_startFragment"
+            app:destination="@id/startFragment" />
+    </fragment>
     <fragment
         android:id="@+id/singUpFragment"
         android:name="com.userfaltakas.arshop.ui.fragments.SingUpFragment"
         android:label="SingUpFragment"
-        tools:layout="@layout/fragment_sing_up" />
+        tools:layout="@layout/fragment_sing_up" >
+        <action
+            android:id="@+id/action_singUpFragment_to_startFragment"
+            app:destination="@id/startFragment" />
+    </fragment>
 </navigation>
