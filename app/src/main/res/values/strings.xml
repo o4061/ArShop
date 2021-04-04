@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">ArShop</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello">Hello !</string>
+    <string name="live_a_new_experience_while_shopping">Live a new experience while shopping</string>
+    <string name="login">login</string>
+    <string name="singup">singup</string>
+    <string name="sign_in_to_continue">Sign in to continue</string>
+    <string name="welcome">Welcome!</string>
+    <string name="email_address">Email Address</string>
+    <string name="or">or</string>
+    <string name="sing_in_with">Sing in with</string>
+    <string name="password">Password</string>
+    <string name="join_us">Join us!</string>
+    <string name="create_a_new_account">Create a new account</string>
+    <string name="username">Username</string>
+    <string name="i_accept_the_policy_and_terms">I accept the policy and terms</string>
+    <string name="sing_up">Sing Up</string>
+    <string name="sing_up_with">Sing up with</string>
+    <string name="sizes_for_shirts">Sizes for shirts</string>
+    <string name="sizes_for_trousers">Sizes for trousers</string>
+    <string name="personalize">Personalize</string>
+    <string name="this_will_improve_your_recommendation_results">This will improve your recommendation results</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="description">description</string>
+    <string name="xs">xs</string>
+    <string name="s">s</string>
+    <string name="m">m</string>
+    <string name="l">l</string>
+    <string name="xl">xl</string>
+    <string name="skip_for_now">Skip for now</string>
+    <string name="next">Next</string>
+    <string name="settings">Settings</string>
+    <string name="account">Account</string>
+    <string name="change_password">Change Password</string>
+    <string name="modify_interests">Modify Interests</string>
+    <string name="notifications">Notifications</string>
+    <string name="switch_text">Switch</string>
+    <string name="enable_device_notifications">Enable device notifications</string>
+    <string name="help_center">Help Center</string>
+    <string name="faq_page">FAQ page</string>
+    <string name="check_out">Check Out</string>
+    <string name="scan_qr_code_and_wait_for_someone_to_bring_your_order">Scan QR code and wait for someone to bring your order</string>
+    <string name="interests">Interests</string>
+    <string name="pick_your_favorite_colors">Pick your favorite colors</string>
+    <string name="pick_your_favorite_pattern">Pick your favorite pattern</string>
+    <string name="complete">Complete</string>
+    <string name="hey_alex">Hey Alex</string>
+    <string name="selected_shop">Selected shop</string>
+    <string name="move_closer">Move closer</string>
+    <string name="it_seems_that_you_are_not_near_to_a_shop">It seems that you are not near to a shop</string>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="age">
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+    </string-array>
+</resources>
