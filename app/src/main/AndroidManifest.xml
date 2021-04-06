@@ -9,6 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ArShop">
+        <activity android:name=".ui.activities.shop_activity.ShopActivity">
+        </activity>
         <activity android:name=".ui.activities.authentication_activity.AuthenticationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

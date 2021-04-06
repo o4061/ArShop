@@ -5,27 +5,25 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.userfaltakas.arshop.databinding.FragmentLocationFailBinding
+import com.userfaltakas.arshop.databinding.FragmentBasketBinding
 import com.userfaltakas.arshop.ui.activities.shop_activity.ShopActivity
 
-class LocationFailFragment : Fragment() {
-    private var _binding: FragmentLocationFailBinding? = null
+class BasketFragment : Fragment() {
+    private var _binding: FragmentBasketBinding? = null
     private val binding get() = _binding!!
-
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentLocationFailBinding.inflate(inflater, container, false)
+        _binding = FragmentBasketBinding.inflate(inflater, container, false)
         return binding.root
     }
-
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        (activity as ShopActivity).showBottomNavigationView()
+        (activity as ShopActivity).hideBottomNavigationView()
     }
 
     override fun onDestroy() {

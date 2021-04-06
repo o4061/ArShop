@@ -29,7 +29,8 @@
         android:backgroundTint="@null"
         android:src="@drawable/ic_shopping_bag_24px"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/description" />
 
     <ImageButton
         android:id="@+id/imageButton5"
@@ -41,7 +42,8 @@
         android:backgroundTint="@null"
         android:src="@drawable/ic_view_in_ar_24px"
         app:layout_constraintEnd_toStartOf="@+id/imageButton4"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/description" />
 
     <TextView
         android:id="@+id/textView16"
@@ -67,7 +69,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/description" />
 
     <TextView
         android:id="@+id/textView17"

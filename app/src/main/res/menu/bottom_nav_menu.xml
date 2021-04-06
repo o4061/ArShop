@@ -2,26 +2,26 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/checkOutFragment"
+        android:id="@+id/locationFailFragment"
         android:icon="@drawable/ic_home_24px"
-        android:title="home" />
+        android:title="Home" />
 
     <item
-        android:id="@+id/interestsFragment"
+        android:id="@+id/favoritesFragment"
         android:icon="@drawable/ic_favorite_24px"
-        android:title="favorite" />
+        android:title="Favorite" />
 
     <item
         android:id="@+id/placeholder"
         android:title="" />
 
     <item
-        android:id="@+id/locationFailFragment"
+        android:id="@+id/settingsFragment"
         android:icon="@drawable/ic_person_black_24dp"
-        android:title="person" />
+        android:title="Profile" />
 
     <item
-        android:id="@+id/loginFragment"
+        android:id="@+id/basketFragment"
         android:icon="@drawable/ic_shopping_bag_24px"
-        android:title="basket" />
+        android:title="Basket" />
 </menu>

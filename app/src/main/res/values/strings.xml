@@ -51,6 +51,16 @@
     <string name="selected_shop">Selected shop</string>
     <string name="move_closer">Move closer</string>
     <string name="it_seems_that_you_are_not_near_to_a_shop">It seems that you are not near to a shop</string>
+    <string name="stripes">Stripes</string>
+    <string name="three_colors">Three Colors</string>
+    <string name="two_colors">Two Colors</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="black">Black</string>
+    <string name="red">Red</string>
+    <string name="your_favorites">Your favorites</string>
+    <string name="your_cart">Your cart</string>
+    <string name="total">Total:</string>
     <string-array name="gender">
         <item>Male</item>
         <item>Female</item>
@@ -61,5 +71,16 @@
         <item>20</item>
         <item>21</item>
         <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
     </string-array>
 </resources>

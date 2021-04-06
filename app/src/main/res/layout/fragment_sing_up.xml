@@ -55,6 +55,7 @@
         android:inputType="textPersonName"
         android:padding="10dp"
         android:paddingStart="20dp"
+        android:paddingEnd="1dp"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -115,7 +116,7 @@
 
 
     <Button
-        android:id="@+id/loginBtn"
+        android:id="@+id/SignUpBtn"
         style="@style/ButtonCircleShape"
         android:layout_width="255dp"
         android:layout_height="55dp"
@@ -185,6 +186,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginBottom="50dp"
         android:background="@drawable/ic_group_67"
+        android:contentDescription="@string/description"
         android:src="@drawable/ic_google_1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button4"
@@ -198,6 +200,7 @@
         android:layout_marginEnd="40dp"
         android:layout_marginBottom="50dp"
         android:background="@drawable/ic_group_67"
+        android:contentDescription="@string/description"
         android:src="@drawable/ic_apple"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

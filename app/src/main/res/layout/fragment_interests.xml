@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    >
+    android:background="@color/white">
 
 
     <TextView
@@ -30,7 +28,7 @@
         android:fontFamily="@font/circular_std_medium"
         android:text="@string/pick_your_favorite_colors"
         android:textColor="@color/light_grey"
-        android:textSize="20sp"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
@@ -70,10 +68,12 @@
                 android:orientation="vertical">
 
                 <ImageButton
+                    android:id="@+id/red_btn"
                     style="@style/ButtonSquareShape"
                     android:layout_width="125dp"
                     android:layout_height="125dp"
-                    android:background="@drawable/ic_red_btn" />
+                    android:background="@drawable/ic_red_btn"
+                    android:contentDescription="@string/description" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -81,7 +81,7 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="5dp"
                     android:fontFamily="@font/circular_std_medium"
-                    android:text="Red"
+                    android:text="@string/red"
                     android:textColor="@color/grey"
                     android:textSize="14sp" />
             </LinearLayout>
@@ -93,11 +93,12 @@
                 android:orientation="vertical">
 
                 <ImageButton
+                    android:id="@+id/black_btn"
                     style="@style/ButtonSquareShape"
                     android:layout_width="125dp"
                     android:layout_height="125dp"
                     android:background="@drawable/ic_blackbtn"
-                    android:src="@drawable/ic_checked" />
+                    android:contentDescription="@string/description" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -105,7 +106,7 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="5dp"
                     android:fontFamily="@font/circular_std_medium"
-                    android:text="Black"
+                    android:text="@string/black"
                     android:textColor="@color/grey"
                     android:textSize="14sp" />
             </LinearLayout>
@@ -117,10 +118,12 @@
                 android:orientation="vertical">
 
                 <ImageButton
+                    android:id="@+id/blue_btn"
                     style="@style/ButtonSquareShape"
                     android:layout_width="125dp"
                     android:layout_height="125dp"
-                    android:background="@drawable/ic_bluebtn" />
+                    android:background="@drawable/ic_bluebtn"
+                    android:contentDescription="@string/description" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -128,7 +131,7 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="5dp"
                     android:fontFamily="@font/circular_std_medium"
-                    android:text="Blue"
+                    android:text="@string/blue"
                     android:textColor="@color/grey"
                     android:textSize="14sp" />
             </LinearLayout>
@@ -136,13 +139,16 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
                 android:orientation="vertical">
 
                 <ImageButton
+                    android:id="@+id/green_btn"
                     style="@style/ButtonSquareShape"
                     android:layout_width="125dp"
                     android:layout_height="125dp"
-                    android:background="@drawable/ic_greenbtn" />
+                    android:background="@drawable/ic_greenbtn"
+                    android:contentDescription="@string/description" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -150,7 +156,7 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="5dp"
                     android:fontFamily="@font/circular_std_medium"
-                    android:text="Green"
+                    android:text="@string/green"
                     android:textColor="@color/grey"
                     android:textSize="14sp" />
             </LinearLayout>
@@ -169,7 +175,7 @@
         android:fontFamily="@font/circular_std_medium"
         android:text="@string/pick_your_favorite_pattern"
         android:textColor="@color/light_grey"
-        android:textSize="20sp"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView" />
 
@@ -198,10 +204,12 @@
                 android:orientation="vertical">
 
                 <ImageButton
+                    android:id="@+id/two_colors_btn"
                     style="@style/ButtonSquareShape"
                     android:layout_width="125dp"
                     android:layout_height="125dp"
-                    android:background="@drawable/ic_twocolors" />
+                    android:background="@drawable/ic_twocolors"
+                    android:contentDescription="@string/description" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -209,7 +217,7 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="5dp"
                     android:fontFamily="@font/circular_std_medium"
-                    android:text="Two Colors"
+                    android:text="@string/two_colors"
                     android:textColor="@color/grey"
                     android:textSize="14sp" />
             </LinearLayout>
@@ -221,10 +229,12 @@
                 android:orientation="vertical">
 
                 <ImageButton
+                    android:id="@+id/three_colors_btn"
                     style="@style/ButtonSquareShape"
                     android:layout_width="125dp"
                     android:layout_height="125dp"
-                    android:background="@drawable/ic_threecolors" />
+                    android:background="@drawable/ic_threecolors"
+                    android:contentDescription="@string/description" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -232,7 +242,7 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="5dp"
                     android:fontFamily="@font/circular_std_medium"
-                    android:text="Three Colors"
+                    android:text="@string/three_colors"
                     android:textColor="@color/grey"
                     android:textSize="14sp" />
             </LinearLayout>
@@ -240,14 +250,16 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="10dp"
+                android:layout_marginEnd="20dp"
                 android:orientation="vertical">
 
                 <ImageButton
+                    android:id="@+id/stripes_btn"
                     style="@style/ButtonSquareShape"
                     android:layout_width="125dp"
                     android:layout_height="125dp"
-                    android:background="@drawable/ic_stripes" />
+                    android:background="@drawable/ic_stripes"
+                    android:contentDescription="@string/description" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -255,7 +267,7 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="5dp"
                     android:fontFamily="@font/circular_std_medium"
-                    android:text="Stripes"
+                    android:text="@string/stripes"
                     android:textColor="@color/grey"
                     android:textSize="14sp" />
             </LinearLayout>
@@ -264,11 +276,12 @@
 
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/skipBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:clickable="true"
+        android:focusable="true"
         android:fontFamily="@font/circular_std_medium"
         android:text="@string/skip_for_now"
         android:textColor="@color/dark_yellow"
@@ -278,7 +291,7 @@
         app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView2" />
 
     <Button
-        android:id="@+id/loginBtn"
+        android:id="@+id/completeBtn"
         style="@style/ButtonCircleShape"
         android:layout_width="255dp"
         android:layout_height="55dp"
@@ -291,7 +304,7 @@
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+        app:layout_constraintTop_toBottomOf="@+id/skipBtn" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

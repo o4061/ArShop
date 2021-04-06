@@ -1,5 +1,6 @@
 package com.userfaltakas.arshop.ui.fragments
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -8,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
 import com.userfaltakas.arshop.R
 import com.userfaltakas.arshop.databinding.FragmentSingUpBinding
+import com.userfaltakas.arshop.ui.activities.shop_activity.ShopActivity
 
 
 class SingUpFragment : Fragment() {
@@ -30,7 +32,11 @@ class SingUpFragment : Fragment() {
             Navigation.findNavController(view).navigate(R.id.action_singUpFragment_to_startFragment)
         }
 
-
+        binding.SignUpBtn.setOnClickListener {
+            val intent = Intent(activity, ShopActivity::class.java)
+            intent.putExtra("dest", "singUp")
+            startActivity(intent)
+        }
     }
 
     override fun onDestroy() {

@@ -3,7 +3,7 @@
     <style name="Theme.ArShop" parent="Theme.MaterialComponents">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/dark_yellow</item>
-        <item name="colorPrimaryVariant">@color/dark_yellow</item>
+        <item name="colorPrimaryVariant">@color/white</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/dark_yellow</item>
